@@ -1,0 +1,5 @@
+CREATE OR ALTER PROCEDURE getUserByName(@name VARCHAR(200))
+AS
+BEGIN
+SELECT * FROM users WHERE  name=@name 
+END
